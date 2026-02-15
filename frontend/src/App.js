@@ -4,11 +4,7 @@ import { Toaster } from "@/components/ui/sonner";
 
 // Pages
 import HomePage from "@/pages/HomePage";
-import ServicesPage from "@/pages/ServicesPage";
-import AboutPage from "@/pages/AboutPage";
-import ContactPage from "@/pages/ContactPage";
 import QuotePage from "@/pages/QuotePage";
-import FAQPage from "@/pages/FAQPage";
 import LoginPage from "@/pages/LoginPage";
 import RegisterPage from "@/pages/RegisterPage";
 
@@ -29,11 +25,7 @@ function App() {
         <Routes>
           {/* Public Routes */}
           <Route path="/" element={<HomePage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
           <Route path="/quote" element={<QuotePage />} />
-          <Route path="/faq" element={<FAQPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           
