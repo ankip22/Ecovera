@@ -36,6 +36,7 @@ const Suppliers = () => {
 
   useEffect(() => {
     fetchSuppliers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
 
   const fetchSuppliers = async () => {
