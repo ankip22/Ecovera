@@ -1,0 +1,145 @@
+{
+  "brand_identity": {
+    "name": "Ecovera Sourcing",
+    "tagline": "Your Supply, Our Priority",
+    "logo_url": "https://customer-assets.emergentagent.com/job_sourcingxperts/artifacts/i24d4eko_logo-png.png",
+    "primary_archetype": "The Performance Pro (Blue/White Edition)",
+    "emotional_tone": "Authoritative, Transparent, Global, Efficient",
+    "visual_mood": "Swiss-style precision, Industrial scale, Clean lines, High contrast"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Outfit, sans-serif",
+      "weights": ["500", "700"],
+      "usage": "All section headers, hero titles, and major callouts. Use tight tracking (-0.02em).",
+      "fallback": "system-ui"
+    },
+    "body": {
+      "font_family": "DM Sans, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Paragraphs, data tables, form labels. Use relaxed line-height (1.6).",
+      "fallback": "sans-serif"
+    },
+    "mono": {
+      "font_family": "JetBrains Mono, monospace",
+      "usage": "Order IDs, SKU numbers, technical specs."
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0B1120",
+        "foreground": "#FFFFFF",
+        "description": "Deep Obsidian Blue - Use for backgrounds in dark mode, text in light mode."
+      },
+      "secondary": {
+        "DEFAULT": "#F1F5F9",
+        "foreground": "#0F172A",
+        "description": "Ice Grey - Use for secondary backgrounds, card fills."
+      },
+      "accent": {
+        "DEFAULT": "#2563EB",
+        "foreground": "#FFFFFF",
+        "description": "Electric Trust Blue - Use for Primary CTAs, active states, key highlights."
+      },
+      "muted": {
+        "DEFAULT": "#94A3B8",
+        "foreground": "#FFFFFF",
+        "description": "Metallic Silver - Use for borders, dividers, subtext."
+      },
+      "background": {
+        "light": "#FFFFFF",
+        "dark": "#020617"
+      }
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(to bottom, rgba(11, 17, 32, 0.8), rgba(11, 17, 32, 0.95))",
+      "subtle_glow": "radial-gradient(circle at center, rgba(37, 99, 235, 0.15) 0%, transparent 70%)"
+    }
+  },
+  "layout_strategies": {
+    "marketing": {
+      "grid_system": "Bento Grid (Mode A)",
+      "spacing": "Generous (p-12 to p-24)",
+      "container_style": "Asymmetrical layouts, overlapping elements, parallax scrolling."
+    },
+    "portal": {
+      "grid_system": "High Density Grid (Mode B)",
+      "spacing": "Compact (p-4 to p-6)",
+      "container_style": "Card-based dashboard, sidebar navigation, data tables."
+    }
+  },
+  "component_rules": {
+    "buttons": {
+      "style": "Sharp corners or small radius (rounded-md). No pill shapes.",
+      "animation": "Scale down slightly on click (active:scale-95). Hover brightness boost."
+    },
+    "cards": {
+      "marketing": "Glassmorphism or solid white with heavy shadow (shadow-xl).",
+      "portal": "Flat white with 1px border (border-slate-200). Minimal shadow."
+    },
+    "inputs": {
+      "style": "Shadcn default but with 'h-12' for better touch targets on marketing pages.",
+      "focus": "Ring-2 ring-blue-500 ring-offset-2"
+    },
+    "navigation": {
+      "marketing": "Sticky glassmorphism header (backdrop-blur-xl bg-white/80).",
+      "portal": "Fixed sidebar (dark mode preferred for contrast) or top bar."
+    }
+  },
+  "visual_enhancers": {
+    "textures": "Subtle noise overlay on solid backgrounds to prevent 'digital flatness'.",
+    "borders": "Tracing Beam effect on pricing cards and key feature highlights.",
+    "shadows": "Layered shadows: shadow-sm for depth + shadow-blue-500/10 for glow."
+  },
+  "image_urls": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1685119166946-d4050647b0e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsb2dpc3RpY3MlMjB3YXJlaG91c2UlMjBtaW5pbWFsfGVufDB8fHx8MTc3MTE1MjIzMnww&ixlib=rb-4.1.0&q=85",
+      "description": "High-angle modern warehouse, clean lines. Use with heavy dark overlay."
+    },
+    "services_logistics": {
+      "url": "https://images.unsplash.com/photo-1751970046974-6d5a27f23ce1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHxjYXJnbyUyMHNoaXAlMjBhZXJpYWwlMjBvY2VhbnxlbnwwfHx8fDE3NzExNTIyMzV8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Aerial cargo ship on blue ocean. Perfect for 'Global Logistics' service."
+    },
+    "services_manufacturing": {
+      "url": "https://images.unsplash.com/photo-1752614671144-7eee784abf74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHw0fHxpbmR1c3RyaWFsJTIwbWFudWZhY3R1cmluZyUyMHJvYm90JTIwYXJtfGVufDB8fHx8MTc3MTE1MjI0MHww&ixlib=rb-4.1.0&q=85",
+      "description": "Robotic arm welding. Use for 'Manufacturing' or 'Quality Control'."
+    },
+    "about_team": {
+      "url": "https://images.unsplash.com/photo-1758518729711-1cbacd55efdb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBjb3Jwb3JhdGUlMjB0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3NzExNTIyNDV8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Top view of corporate meeting. Dynamic angle for 'About Us'."
+    },
+    "why_us_detail": {
+      "url": "https://images.unsplash.com/photo-1721937127582-ed331de95a04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBsb2dpc3RpY3MlMjB3YXJlaG91c2UlMjBtaW5pbWFsfGVufDB8fHx8MTc3MTE1MjIzMnww&ixlib=rb-4.1.0&q=85",
+      "description": "Lone forklift in aisle. Use for 'Warehousing' or specific feature highlight."
+    }
+  },
+  "instructions_to_main_agent": {
+    "general": "You are building a hybrid corporate site + client portal. The marketing side must feel premium, trustworthy, and 'Swiss'. The portal side must be dense, functional, and data-first.",
+    "theme_setup": "Install 'Outfit' and 'DM Sans' via Google Fonts. Configure Tailwind colors to match the palette exactly.",
+    "layout_rules": "Do NOT use standard Bootstrap columns. Use the 'Bento Grid' for the Services section. Use 'Tracing Beam' effects for the Quote Request form.",
+    "portal_specifics": "The Client Portal (Dashboard, Orders, Suppliers) should use a Sidebar layout. Use Shadcn 'Table', 'Card', and 'Badge' components heavily here.",
+    "logo_handling": "The logo is Gold/Black. Ensure it is placed on a dark background (Header/Footer) or use a monochrome version if placing on white (filter: grayscale(100%)).",
+    "animations": "Use 'framer-motion' for entrance animations (fade-up) on all marketing pages. Keep the portal static/snappy."
+  },
+  "universal_guidelines": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use sonner for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ]
+}
