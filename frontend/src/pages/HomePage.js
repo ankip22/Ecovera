@@ -553,7 +553,7 @@ const HomePage = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-slate-900 mb-1">Call Us</h4>
-                  <a href="tel:+919876543210" className="text-blue-600 hover:underline">+91 98765 43210</a>
+                  <a href="tel:+919057905733" className="text-blue-600 hover:underline">+91 9057905733</a>
                 </div>
               </div>
               <div className="bg-white p-6 rounded-xl flex items-start gap-4">
@@ -562,7 +562,7 @@ const HomePage = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-slate-900 mb-1">Visit Us</h4>
-                  <p className="text-slate-600">Mumbai, Maharashtra, India</p>
+                  <p className="text-slate-600">C30, C Block, Sector 63, Noida 201301</p>
                 </div>
               </div>
               <div className="bg-white p-6 rounded-xl flex items-start gap-4">
